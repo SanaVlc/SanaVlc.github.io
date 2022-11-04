@@ -3,8 +3,8 @@
     <Head>
         <title> binairestelsel </title>
         <meta charset="utf-8"> 
-
-        <link rel="stylesheet" href="opmaak.css">
+         <link rel="stylesheet" href="opmaak.css">
+         <meta name="vieuwport" content="width=device-width, initial-scale=1.0">
     </Head> 
     <body>
         <br>
