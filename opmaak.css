@@ -3,7 +3,6 @@ padding= de ruimte tussen de inhoud en de rand
 margin=  ruimte rond elementen wordt  gecreëreerd
 box-sizing= hoe de box eruit komt te zien
 text-align= hier komt tekst te staan 
-font-style= het soort lettertype.
 header{box-sizing: border-box;
      margin: 0;
      background-color: rgb(216, 191, 216);
@@ -21,7 +20,6 @@ padding= de ruimte tussen de inhoud en de rand
 margin=  wordt gebruikt om ruimte rond elementen wordt te creëren
 box-sizing= hoe de box eruit komt te zien
 text-align= hier komt tekst te staan 
-font-style= het soort lettertype.
 h1{box-sizing: border-box;
   margin: 0;
   background-color: rgb(216, 191, 216);
@@ -67,7 +65,7 @@ li a {
 de achtergrond kleur kunnen wij zien op welke pagina de muis gedrukt staat.
 */
 li a:hover:not(.active) {
-  background-color: rgb(169, 28, 28);
+  background-color: rgba(169, 28, 28, 0.23);
 }
 
 /*Hieronder staat een code voor de .active, als er nergens op gedrukt wordt.
@@ -78,15 +76,12 @@ li a:hover:not(.active) {
 
 /*Hieronder staat een code voor de paragrafen, dit zorgt ervoor dat de grootte door middel van 
 padding= de ruimte tussen de inhoud en de rand
-font-family= soort lettertype
 box-sizing= hoe de box eruit komt te zien
 text-align=waar de text komt te staan
-font-style= het soort lettertype. 
 line-height=hoe hoog de lijnen zullen zijn
 display=stelt in of een element wordt behandeld als een blok- of inline-element en de lay-out die voor de onderliggende elementen wordt gebruikt.
 Dat de bovenkant er op deze manier uitkomt te zien*/
 p{text-align: left;
-  font-family: Verdana;
   padding: 20px;
   display: table;
   clear: both;
@@ -99,12 +94,10 @@ p{text-align: left;
 padding= de ruimte tussen de inhoud en de rand
 font-size= groote van de text
 text-align=waar de text komt te staan
-font-style= het soort lettertype. Dat het 2e blok aan de bovenkant van mijn pagina er zo uit komt te zien
+font-style= het soort lettertype.
 font-family=welk lettertype er wordt gebruikt
 float=dat de text aan de linkerkant van de pagine begint. 
 */
-h2{font-style: italic;
-  font-family: Georgia;
   text-align: center;
   float: left;
   padding: 20px;
@@ -121,9 +114,8 @@ font-style= het soort lettertype.
 font-family=welk lettertype er wordt gebruikt
 float=dat de text aan de linkerkant van de pagine begint. 
 */
-h3{font-style: italic;
-  font-family: Georgia;
-  text-align: center;
+
+{ text-align: center;
   float: left;
   padding: 20px;
   font-size: 25px;
@@ -139,9 +131,8 @@ font-style= het soort lettertype. Dat het 2e blok aan de bovenkant van mijn pagi
 font-family=welk lettertype er wordt gebruikt
 float=dat de text aan de linkerkant van de pagine begint. 
 */
-  h4{font-style: italic;
-    font-family: Georgia;
-    text-align: center;
+  h4
+  {  text-align: center;
     float: left;
     padding: 20px;
     font-size: 25px;
@@ -156,9 +147,8 @@ font-style= het soort lettertype. Dat het 2e blok aan de bovenkant van mijn pagi
 font-family=welk lettertype er wordt gebruikt
 float=dat de text aan de linkerkant van de pagine begint. 
 */
-  h5{font-style: italic;
-    font-family: Georgia;
-    text-align: center;
+  h5
+  {  text-align: center;
     float: left;
     padding: 15px;
     font-size: 25px;
