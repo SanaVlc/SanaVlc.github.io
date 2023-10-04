@@ -30,6 +30,7 @@ ul {
 .dropbtn {
   background-color: #f1f1f1;
   border: none;
+  padding: 8px 16px;
     
 }
 
@@ -52,7 +53,6 @@ ul {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
- padding: 8px 16px;
   text-decoration: none;
   
 }
